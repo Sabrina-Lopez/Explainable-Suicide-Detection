@@ -37089,28 +37089,28 @@
 /***/ })
 /******/ ]);
 //# sourceMappingURL=bundle.js.map </script></head><body>
-        <div class="lime top_div" id="top_div0B8WTS6F946PD2V"></div>
+        <div class="lime top_div" id="top_divG7GVPRMZFDM92G8"></div>
         
         <script>
-        var top_div = d3.select('#top_div0B8WTS6F946PD2V').classed('lime top_div', true);
+        var top_div = d3.select('#top_divG7GVPRMZFDM92G8').classed('lime top_div', true);
         
             var pp_div = top_div.append('div')
                                 .classed('lime predict_proba', true);
             var pp_svg = pp_div.append('svg').style('width', '100%');
-            var pp = new lime.PredictProba(pp_svg, ["0", "1"], [0.9989405274391174, 0.001059426460415125]);
+            var pp = new lime.PredictProba(pp_svg, ["0", "1"], [0.9994925260543823, 0.0005074137588962913]);
             
         
         var exp_div;
             var exp = new lime.Explanation(["0", "1"]);
         
                 exp_div = top_div.append('div').classed('lime explanation', true);
-                exp.show([["therapist", 0.11381307136002493], ["feel", 0.09113300863399404], ["and", 0.08816738878573581], ["month", 0.07309887063724212], ["feeling", 0.07213307208948297], ["loneliness", 0.06586383402093825], ["every", 0.05574706008250969], ["usually", 0.05489485564588447], ["bottle", -0.038244609191506955], ["to", -0.03349328659837353]], 0, exp_div);
+                exp.show([["loneliness", 0.3999680904054567], ["depriving", 0.1593725015642246], ["feel", 0.11961216482140634], ["and", 0.11904548055696894], ["i", 0.11595218193135118], ["to", -0.11037137267754955], ["up", 0.10462964344853536], ["people", 0.08728110744434092], ["feeling", 0.08108429240744748], ["urge", -0.07032023039079471]], 0, exp_div);
                 
                 exp_div = top_div.append('div').classed('lime explanation', true);
-                exp.show([["therapist", -0.11381306959744712], ["feel", -0.0911330071899143], ["and", -0.08816738759355129], ["month", -0.07309887235060525], ["feeling", -0.07213307289641063], ["loneliness", -0.06586383532840372], ["every", -0.05574705969323925], ["usually", -0.054894854119637904], ["bottle", 0.0382446063213787], ["to", 0.0334932869636322]], 1, exp_div);
+                exp.show([["loneliness", -0.39996808978495885], ["depriving", -0.1593725006041781], ["feel", -0.1196121647039591], ["and", -0.11904548045328883], ["i", -0.11595218247178632], ["to", 0.11037137209578951], ["up", -0.10462964358097597], ["people", -0.08728110715021221], ["feeling", -0.08108429214861154], ["urge", 0.07032022927184374]], 1, exp_div);
                 
         var raw_div = top_div.append('div');
-            exp.show_raw_text([["therapist", 423, 0.11381307136002493], ["therapist", 477, 0.11381307136002493], ["feel", 2, 0.09113300863399404], ["feel", 57, 0.09113300863399404], ["feel", 271, 0.09113300863399404], ["and", 72, 0.08816738878573581], ["and", 121, 0.08816738878573581], ["and", 137, 0.08816738878573581], ["and", 262, 0.08816738878573581], ["and", 339, 0.08816738878573581], ["and", 433, 0.08816738878573581], ["month", 25, 0.07309887063724212], ["feeling", 107, 0.07213307208948297], ["feeling", 367, 0.07213307208948297], ["loneliness", 76, 0.06586383402093825], ["every", 19, 0.05574706008250969], ["usually", 49, 0.05489485564588447], ["bottle", 343, -0.038244609191506955], ["to", 157, -0.03349328659837353], ["to", 165, -0.03349328659837353], ["to", 184, -0.03349328659837353]], 0, "i feel pretty down every month or so very down i usually feel self hate and loneliness i desperately crave feeling loved and cared about and i have the urge to talk to people im close to but all i end up doing is isolating myself depriving myself of what i want and then feel worse it pushes people awaydoes anyone else isolate themselves and bottle up what they are feeling anyone know why i do itnote i have never seen a therapist and probably wont go either i cant afford a therapist anyways", raw_div, true);
+            exp.show_raw_text([["loneliness", 76, 0.3999680904054567], ["depriving", 230, 0.1593725015642246], ["feel", 2, 0.11961216482140634], ["feel", 57, 0.11961216482140634], ["feel", 271, 0.11961216482140634], ["and", 72, 0.11904548055696894], ["and", 121, 0.11904548055696894], ["and", 137, 0.11904548055696894], ["and", 262, 0.11904548055696894], ["and", 339, 0.11904548055696894], ["and", 433, 0.11904548055696894], ["i", 0, 0.11595218193135118], ["i", 47, 0.11595218193135118], ["i", 87, 0.11595218193135118], ["i", 141, 0.11595218193135118], ["i", 195, 0.11595218193135118], ["i", 255, 0.11595218193135118], ["i", 391, 0.11595218193135118], ["i", 403, 0.11595218193135118], ["i", 461, 0.11595218193135118], ["to", 157, -0.11037137267754955], ["to", 165, -0.11037137267754955], ["to", 184, -0.11037137267754955], ["up", 201, 0.10462964344853536], ["up", 350, 0.10462964344853536], ["people", 168, 0.08728110744434092], ["people", 292, 0.08728110744434092], ["feeling", 107, 0.08108429240744748], ["feeling", 367, 0.08108429240744748], ["urge", 152, -0.07032023039079471]], 0, "i feel pretty down every month or so very down i usually feel self hate and loneliness i desperately crave feeling loved and cared about and i have the urge to talk to people im close to but all i end up doing is isolating myself depriving myself of what i want and then feel worse it pushes people awaydoes anyone else isolate themselves and bottle up what they are feeling anyone know why i do itnote i have never seen a therapist and probably wont go either i cant afford a therapist anyways", raw_div, true);
             
         </script>
         </body></html>
